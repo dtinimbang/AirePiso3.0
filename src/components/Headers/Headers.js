@@ -17,7 +17,7 @@ const Headers = () => (
    <a href = "about"> about us </a>
    <a href = "#"> login </a>
    <a href = "calc"> Mortgage Calculator </a>
-   ReactDOM.render(
+   
   <GoogleLogin
     clientId="562860191240-mi3o5id8mqhkvesihoo688elp5pj5q74.apps.googleusercontent.com"
     buttonText="Login"
@@ -25,7 +25,7 @@ const Headers = () => (
     onFailure={responseGoogle}
   />
 
-);
+
    {/* <a href = "#" className ="register-btn"> Register </a> */}
 
 
