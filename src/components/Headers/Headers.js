@@ -1,5 +1,12 @@
-import React, { Component} from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'
+import GoogleLogin from 'react-google-login';
+
+ 
+const responseGoogle = (response) => {
+  console.log(response);
+}
+
+
 
 const Headers = () => (
   <header> 
@@ -10,7 +17,17 @@ const Headers = () => (
    <a href = "about"> about us </a>
    <a href = "#"> login </a>
    <a href = "calc"> Mortgage Calculator </a>
-   <a href = "#" className ="register-btn"> Register </a>
+   ReactDOM.render(
+  <GoogleLogin
+    clientId="562860191240-mi3o5id8mqhkvesihoo688elp5pj5q74.apps.googleusercontent.com"
+    buttonText="Login"
+    onSuccess={responseGoogle}
+    onFailure={responseGoogle}
+  />
+
+);
+   {/* <a href = "#" className ="register-btn"> Register </a> */}
+
 
  </nav>
    
