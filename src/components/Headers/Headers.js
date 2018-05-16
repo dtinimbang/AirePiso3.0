@@ -1,5 +1,5 @@
 import React from 'react'
-import GoogleLogin from 'react-google-login';
+import {GoogleLogin } from 'react-google-login';
 
  
 const responseGoogle = (response) => {
@@ -23,10 +23,13 @@ const Headers = () => (
     buttonText="Login"
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
+
   />
 
 
-   {/* <a href = "#" className ="register-btn"> Register </a> */}
+
+    
+
 
 
  </nav>

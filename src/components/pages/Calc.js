@@ -27,13 +27,13 @@ class Calc extends Component {
         years: 30,
         rate: 4.25
     }
-    // getInitialState() {
-    //     // this will return principal, years and rate
-    //     //any values passing into it
-    //     return {
+    getInitialState() {
+        // this will return principal, years and rate
+        //any values passing into it
+        return {
 
-    //     };
-    // }
+        };
+    }
 
     calculatePayment(principal, years, rate){
         var monthlyRate = rate / 100 / 12;
