@@ -37,25 +37,25 @@ class Filter extends Component {
     <span className="title">
     Extras
     </span>
-    <label for="extras">
-    <span>Elevators</span> 
+    <label >
+    Elevators 
     <input name="extras" value="elevator" type="checkbox" /></label>
     </div>
 
    <div className="filters extras">
-    <label for="extras">
+    <label >
     <span>Swimming pool</span> 
     <input name="extras" value="swimming-pool" type="checkbox" /></label>
     </div>
 
    <div className="filters extras">
-    <label for="extras">
+    <label >
     <span>Gyms</span> 
     <input name="extras" value="gym" type="checkbox" /></label>
     </div>
 
    <div className="filters extras">
-    <label for="extras">
+    <label >
     <span>Finished Basement</span> 
     <input name="extras" value="finished-basement" type="checkbox" /></label>
     </div>
