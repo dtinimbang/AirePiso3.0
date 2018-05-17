@@ -1,11 +1,14 @@
 import React from 'react'
-import {GoogleLogin } from 'react-google-login';
+import {GoogleLogin, GoogleLogout} from 'react-google-login';
 
  
 const responseGoogle = (response) => {
   console.log(response);
 }
 
+const logout = (response) => {
+  console.log(response);
+}
 
 
 const Headers = () => (
@@ -26,7 +29,12 @@ const Headers = () => (
 
   />
 
-
+    <GoogleLogout
+      clientId="562860191240-mi3o5id8mqhkvesihoo688elp5pj5q74.apps.googleusercontent.com"
+      buttonText="Logout"
+      onLogoutSuccess={logout}
+    >
+    </GoogleLogout>
 
     
 
