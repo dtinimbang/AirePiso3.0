@@ -13,7 +13,7 @@ const logout = (response) => {
 
 const Headers = () => (
   <header> 
-  <div className="logo"> LOGO </div>
+  <div className="logo"> AIREPISO </div>
 
   <nav>
    <a href = "#"> home </a>
