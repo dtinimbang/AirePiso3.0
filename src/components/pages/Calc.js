@@ -21,12 +21,15 @@ class Calc extends Component {
     //     years: this.props.years,
     //     rate: this.props.rate
     // }
-
-    state = {
-        principal: 300000,
-        years: 30,
-        rate: 4.25
+    constructor() {
+        super();
+        this.state = {
+            principal: 0,
+            years: 0,
+            rate: 0
+        }
     }
+
     // getInitialState() {
     //     // this will return principal, years and rate
     //     //any values passing into it
@@ -60,7 +63,7 @@ class Calc extends Component {
     principalChange(event) {
         this.setState({principal: event.target.value});
     }
-    yearsChange(event) {
+    principalYearsChange(event) {
         this.setState({years: event.target.value});
     }
     rateChange(event) {
@@ -75,15 +78,15 @@ class Calc extends Component {
                 <div className="form">
                     <div>
                         <label>Principal</label>
-                        <input type ="text" value={this.state.principal} onChange={this.principalChange}/>
+                        <input type ="text" value={this.state.principal} onChange={this.principalChange.bind(this)}/>
                     </div>
                     <div>
                         <label>Years</label>
-                        <input type ="text" value={this.state.years} onChange={this.principalyearsChange}/>
+                        <input type ="text" value={this.state.years} onChange={this.principalYearsChange.bind(this)}/>
                     </div>
                     <div>
                         <label>Rate</label>
-                        <input type ="text" value={this.state.rate} onChange={this.rateChange}/>
+                        <input type ="text" value={this.state.rate} onChange={this.rateChange.bind(this)}/>
                     </div>
                 </div>
                 <h2>Monthly Payment: <span className="currency">{Number(monthlyPayment.toFixed(2)).toLocaleString()}</span></h2>
