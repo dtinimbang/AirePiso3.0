@@ -3,14 +3,15 @@
 #content-area{
   overflow:auto;
   width: 100%;
-  background: black;
+  background: whitesmoke;
   min-height: 100vh;
 }
 
 #filter{
-  background: grey;
-  width: 30%;
-  max-width: 300px;
+  background: white;
+  height: 100%;
+  width: 400px;
+  max-width: 200px;
   display: inline-block;
   /* //float: left; */
 
@@ -70,11 +71,11 @@
 }
 
 #Listings{
-  width: 70%;
+  width: 80%;
   display: inline-block;
   //float: left;
   padding: 15px;
-  background: tan;
+  background: white;
 
   .search-area{
       input[type="text"]{
@@ -127,15 +128,15 @@
       .listings-results{
           margin-bottom: 68px;
           /* //https://www.cssmatic.com/box-shadow */
-          .listing{
-              background:red;
+          /* .listing{
+              color: white;
               width: 33.33%;
-              border-radius: 5px;
-              -webkit-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
+              border-radius: 5px; */
+              /* -webkit-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
               -moz-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
-              box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
-          }
-          //used perfect full page background-css
+              box-shadow: 0px 9px 54px -4px rgba(224,224,224,1); */
+          /* } */
+          /* //used perfect full page background-css */
           .listing-img{
               color:white;
               padding: 15px;
@@ -213,7 +214,7 @@
 
 
       header {
-        background:#0c002b;
+        background: white;
         color: white;
         overflow: auto;
         padding: 20px 15px;

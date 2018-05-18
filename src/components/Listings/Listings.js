@@ -51,7 +51,7 @@ state = {
               </div>
               <div className="bedrooms">
               <i className="fas fa-bed" aria-hidden="true"></i>
-              <span>10 bedrooms</span>
+              <span>1 bedrooms</span>
               </div>
             </div>
             </div> 
@@ -69,15 +69,7 @@ state = {
         {/* this will create the numbers at bottom */}
         <section className="pagination">
         <ul className="pagination-nums">
-        <li>Prev</li>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-
-
-
+  
 
         </ul>
         </section>
