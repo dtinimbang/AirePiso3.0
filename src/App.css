@@ -7,6 +7,7 @@
   min-height: 100vh;
 }
 
+
 #filter{
   background: white;
   height: 100%;
@@ -19,7 +20,10 @@
       padding: 20px;
 
   }
-
+a{
+    position:relative;
+    z-index:9999;
+}
   h4{
       font-size: 0.9rem;
       margin-bottom: 25px;

@@ -76,6 +76,8 @@ class Calc extends Component {
         return(
             <div className="content">
                 <div className="form">
+                <h2>Please use this calculator to receive a monthly payment rate. </h2>
+
                     <div>
                         <label>Principal</label>
                         <input type ="text" value={this.state.principal} onChange={this.principalChange.bind(this)}/>
