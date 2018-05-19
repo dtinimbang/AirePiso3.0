@@ -42,7 +42,7 @@ state = {
             <div className="details">
             <div className="user-img"></div>
             <div className="user-details">
-              <span className="user-name">Don Tinimbang</span>
+              <span className="user-name">John Taylor</span>
               <span className="post-date">05/19/2018</span>
             </div>
             <div className="listing-details">

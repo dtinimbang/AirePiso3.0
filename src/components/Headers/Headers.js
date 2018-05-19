@@ -18,7 +18,6 @@ const Headers = () => (
   <nav>
    <a href = "#"> home </a>
    <a href = "about"> about us </a>
-   <a href = "#"> login </a>
    <a href = "calc"> Mortgage Calculator </a>
 
   <GoogleLogin
